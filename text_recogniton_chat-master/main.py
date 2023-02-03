@@ -49,7 +49,7 @@ def check_all_messages(message):
     response('Enter the symptoms you have.', ['a', 'A'], single_response=True)
     response('Book a consultation now : https://www.practo.com/bangalore/doctors', ['b', 'B'], single_response=True)
     response('Viral infection!...Consult a doctor : https://www.practo.com/consult', ['headache', 'fever','cough', 'cold','sore','throat'], single_response=True)
-    response('Hormonal imbalance!...See a Dermatologist : https://www.practo.com/consult', ['pimples','acne', 'zits','blackheads','spot','spots','pigmentation'], single_response=True)
+    response('Hormonal imbalance!...See a Dermatologist : https://www.practo.com/consult', ['pimples','acne', 'zits','blackheads','spot','spots','pigmentation','pores'], single_response=True)
     response('Microbial infection, better to get medicines before it spreads: https://www.practo.com/consult', ['rashes', 'fungal','infection', 'rings','itching','itch','dark'], single_response=True)
 
     # Longer responses
